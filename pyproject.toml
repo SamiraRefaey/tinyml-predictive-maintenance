@@ -1,0 +1,9 @@
+[project]
+name = "tinyml-predictive-maintenance"
+version = "0.1.0"
+description = "TinyML predictive maintenance anomaly detection demo."
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
